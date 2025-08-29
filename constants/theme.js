@@ -1,0 +1,77 @@
+export const theme = {
+    colors: {
+        primary: "#1A1A1A",
+        secondary: "#FFFFFF", 
+        accent: "#007AFF",
+        background: "#FAFAFA",
+        surface: "#FFFFFF",
+        text: {
+            primary: "#1A1A1A",
+            secondary: "#666666",
+            tertiary: "#999999",
+            inverse: "#FFFFFF",
+        },
+        border: "#E8E8E8",
+        success: "#34C759",
+        warning: "#FF9500",
+        error: "#FF3B30",
+        overlay: "rgba(0, 0, 0, 0.5)",
+    },
+    fonts: {
+        regular: "System",
+        medium: "System",
+        semiBold: "System",
+        bold: "System",
+        extraBold: "System",
+    },
+    fontSizes: {
+        xs: 12,
+        sm: 14,
+        base: 16,
+        lg: 18,
+        xl: 20,
+        '2xl': 24,
+        '3xl': 30,
+        '4xl': 36,
+        '5xl': 48,
+        '6xl': 64,
+    },
+    spacing: {
+        small: 8,
+        medium: 16,
+        large: 24,
+        xlarge: 32,
+        xxlarge: 40,
+    },
+    borderRadius: {
+        small: 4,
+        medium: 8,
+        large: 16,
+        xlarge: 24,
+        xxlarge: 32,
+    },
+    radius: {
+        sm: 4,
+        md: 8,
+        lg: 16,
+        xl: 24,
+        xxl: 32,
+    },
+    shadow: {
+        small: {
+            shadowColor: "#000",
+            shadowOffset: { width: 0, height: 2 },
+            shadowOpacity: 0.25,
+            shadowRadius: 3.84,
+        },
+    },
+    breakpoints: {
+        small: 640,
+        medium: 768,
+        large: 1024,
+        xlarge: 1280,
+        xxlarge: 1536,
+    },
+
+    
+};
